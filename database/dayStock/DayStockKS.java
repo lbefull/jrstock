@@ -16,7 +16,7 @@ public class DayStockKS {
 		long[][][][] total=new long[27][13][32][4];
 		int n=800000;
 		for (int y=1996; y<=2022; y++) {
-			System.setIn(new FileInputStream("C:/ssafy/project2/data/marcap/data/marcap-"+y+".csv/marcap-"+y+".csv"));
+			System.setIn(new FileInputStream("C://project2/data/marcap/data/marcap-"+y+".csv/marcap-"+y+".csv"));
 			br=new BufferedReader(new InputStreamReader(System.in));
 			br.readLine();
 			int count=0;
@@ -45,7 +45,7 @@ public class DayStockKS {
 			System.out.println(y);
 		}
 		System.out.println("start");
-		System.setIn(new FileInputStream("C:/ssafy/project2/data/KQ11.csv"));
+		System.setIn(new FileInputStream("C://project2/data/KQ11.csv"));
 		br=new BufferedReader(new InputStreamReader(System.in));
 		System.out.println(br.readLine());
 		int count=0;
@@ -101,7 +101,7 @@ public class DayStockKS {
 		
 		BufferedOutputStream bs = null;
 		try {
-			bs = new BufferedOutputStream(new FileOutputStream("C:/ssafy/project2/data/day_stock/kosdaq.sql"));
+			bs = new BufferedOutputStream(new FileOutputStream("C://project2/data/day_stock/kosdaq.sql"));
 			bs.write(result.getBytes()); //Byte형으로만 넣을 수 있음
 
 		} catch (Exception e) {

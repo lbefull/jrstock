@@ -1,4 +1,4 @@
-package io.ssafy.jrstock;
+package io..jrstock;
 
 import android.webkit.JavascriptInterface;
 

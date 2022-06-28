@@ -60,7 +60,7 @@ INSTALLED_APPS = [
 ]
 
 # BASE_URL = 'http://localhost:8000/'
-BASE_URL = 'https://j6s001.p.ssafy.io/'
+BASE_URL = 'https://j6s001.p..io/'
 
 SITE_ID = 1
 
@@ -78,12 +78,12 @@ ACCOUNT_AUTHENTICATION_METHOD = 'email'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
-CORS_ORIGIN_WHITELIST = ['http://10.0.2.2:3000', 'http://127.0.0.1:3000', 'http://localhost:3000', 'https://j6s001.p.ssafy.io']
+CORS_ORIGIN_WHITELIST = ['http://10.0.2.2:3000', 'http://127.0.0.1:3000', 'http://localhost:3000', 'https://j6s001.p..io']
 CORS_ALLOW_CREDENTIALS = True
 
 # CELERY 세팅
 CELERY_ALWAYS_EAGER = True
-CELERY_BROKER_URL = 'redis://j6s001.p.ssafy.io:6379'
+CELERY_BROKER_URL = 'redis://j6s001.p..io:6379'
 CELERY_RESULT_BACKEND = 'django-db'
 CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_TASK_SERIALIZER = 'json'

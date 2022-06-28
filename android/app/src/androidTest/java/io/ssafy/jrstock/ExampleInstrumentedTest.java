@@ -1,4 +1,4 @@
-package io.ssafy.jrstock;
+package io..jrstock;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("io.ssafy.jrstock", appContext.getPackageName());
+        assertEquals("io..jrstock", appContext.getPackageName());
     }
 }

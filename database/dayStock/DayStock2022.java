@@ -11,7 +11,7 @@ public class DayStock2022 {
 //		"code_number","Name","Market","Dept","Close","ChangeCode","Changes","ChagesRatio","Open","High","Low",
 //		"Volume","Amount","Marcap","Stocks","MarketId","Rank","Date"
 		for (int y=1995; y<=2022; y++) {
-			System.setIn(new FileInputStream("C:/ssafy/project2/data/marcap/data/marcap-"+y+".csv/marcap-"+y+".csv"));
+			System.setIn(new FileInputStream("C://project2/data/marcap/data/marcap-"+y+".csv/marcap-"+y+".csv"));
 			BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 			br.readLine();
 			int n=800000;
@@ -56,7 +56,7 @@ public class DayStock2022 {
 			
 			BufferedOutputStream bs = null;
 			try {
-				bs = new BufferedOutputStream(new FileOutputStream("C:/ssafy/project2/data/day_stock/"+y+".sql"));
+				bs = new BufferedOutputStream(new FileOutputStream("C://project2/data/day_stock/"+y+".sql"));
 				bs.write(result.getBytes()); //Byte형으로만 넣을 수 있음
 	
 			} catch (Exception e) {

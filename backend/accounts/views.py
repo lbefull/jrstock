@@ -171,7 +171,7 @@ def user_update(request, pk):
     data['is_google'] = user.is_google
     
     if data['profile_img'] == "":
-        data['profile_img_url'] = 'https://j6s001.p.ssafy.io/media/default_profile.jpg'
+        data['profile_img_url'] = 'https://j6s001.p..io/media/default_profile.jpg'
     elif data['profile_img'] == 'default':
         del data['profile_img']
         

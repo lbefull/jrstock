@@ -141,8 +141,8 @@ public class MonthStock {
 //		System.out.println(result);
 		BufferedOutputStream bs = null;
 		try {
-//			bs = new BufferedOutputStream(new FileOutputStream("C:/ssafy/project2/data/day_stock/week_stock"+Y+".sql"));
-			bs = new BufferedOutputStream(new FileOutputStream("C:/ssafy/project2/data/month_kospi_kosdaq.sql"));
+//			bs = new BufferedOutputStream(new FileOutputStream("C://project2/data/day_stock/week_stock"+Y+".sql"));
+			bs = new BufferedOutputStream(new FileOutputStream("C://project2/data/month_kospi_kosdaq.sql"));
 			bs.write(result.getBytes()); //Byte형으로만 넣을 수 있음
 
 		} catch (Exception e) {

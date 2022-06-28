@@ -1,4 +1,4 @@
-package io.ssafy.jrstock;
+package io..jrstock;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     BackPressCloseHandler backPressCloseHandler;
     NotificationManager notificationManager;
 
-    static final String BASE_URL = "https://j6s001.p.ssafy.io";
+    static final String BASE_URL = "https://j6s001.p..io";
 //    static final String BASE_URL = "http://10.0.2.2:3000";
     static String token;
     String CHANNEL_ID = "FcmChannelId";

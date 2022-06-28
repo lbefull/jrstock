@@ -9,7 +9,7 @@ public class Kospi {
 
 	public static void main(String[] args) throws IOException {
 		//current_price,volume,trade_price,date,start_price,high_price,low_price
-		System.setIn(new FileInputStream("C:/ssafy/project2/data/KS11.csv"));
+		System.setIn(new FileInputStream("C://project2/data/KS11.csv"));
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		int n=6217;
 		String[][] arr=new String[n][7];
@@ -31,7 +31,7 @@ public class Kospi {
 		
 		BufferedOutputStream bs = null;
 		try {
-			bs = new BufferedOutputStream(new FileOutputStream("C:/ssafy/project2/data/kospi.sql"));
+			bs = new BufferedOutputStream(new FileOutputStream("C://project2/data/kospi.sql"));
 			bs.write(sb.toString().getBytes()); //Byte형으로만 넣을 수 있음
 
 		} catch (Exception e) {

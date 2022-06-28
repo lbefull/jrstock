@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:138234037090:android:345c753597dfe9d59ca23b",
         "android_client_info": {
-          "package_name": "io.ssafy.jrstock"
+          "package_name": "io..jrstock"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "138234037090-4o8633vf9dh0v73gjl0n2195uihego3m.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "io.ssafy.jrstock",
+            "package_name": "io..jrstock",
             "certificate_hash": "d7f3047fdabb8617dc9d24672c8d7f974ffad92e"
           }
         },

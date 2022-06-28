@@ -26,7 +26,7 @@ public class KospiWeek {
 		int n=10000;
 		String[][] total=new String[n][];
 		String[][] arr=new String[n][13];
-		System.setIn(new FileInputStream("C:/ssafy/project2/data/day_stock/kosdaq_day.txt"));
+		System.setIn(new FileInputStream("C://project2/data/day_stock/kosdaq_day.txt"));
 		br=new BufferedReader(new InputStreamReader(System.in));
 //		br.readLine();
 		while(true) {
@@ -135,7 +135,7 @@ public class KospiWeek {
 //		System.out.println(result);
 		BufferedOutputStream bs = null;
 		try {
-			bs = new BufferedOutputStream(new FileOutputStream("C:/ssafy/project2/data/day_stock/kosdaq_week.sql"));
+			bs = new BufferedOutputStream(new FileOutputStream("C://project2/data/day_stock/kosdaq_week.sql"));
 			bs.write(result.getBytes()); //Byte형으로만 넣을 수 있음
 
 		} catch (Exception e) {

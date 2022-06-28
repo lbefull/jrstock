@@ -10,7 +10,7 @@ def send_to_fcm(token, result_id):
         data={
             "title":"백테스트 완료",
             "contents": "요청하신 백테스팅이 완료되었습니다",
-            "url": "https://j6s001.p.ssafy.io/backtest/" + str(result_id)
+            "url": "https://j6s001.p..io/backtest/" + str(result_id)
         },
         token=token,
     )

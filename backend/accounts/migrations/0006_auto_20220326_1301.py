@@ -18,6 +18,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='user',
             name='profile_img_url',
-            field=models.CharField(default='https://j6s001.p.ssafy.io/media/default_profile.jpg', max_length=100),
+            field=models.CharField(default='https://j6s001.p..io/media/default_profile.jpg', max_length=100),
         ),
     ]

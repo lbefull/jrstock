@@ -5,7 +5,7 @@ def send_to_fcm(title, contents, notice_id):
         data={
             "title": title,
             "contents": contents,
-            "url": "https://j6s001.p.ssafy.io/notice/" + str(notice_id)
+            "url": "https://j6s001.p..io/notice/" + str(notice_id)
         },
         topic='jrstock',
     )

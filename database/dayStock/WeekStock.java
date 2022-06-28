@@ -56,7 +56,7 @@ public class WeekStock {
 //		int weeks=0;
 		for (int y=Y; y<=EY; y++) {
 			System.out.println(y);
-			System.setIn(new FileInputStream("C:/ssafy/project2/data/marcap/data/marcap-"+y+".csv/marcap-"+y+".csv"));
+			System.setIn(new FileInputStream("C://project2/data/marcap/data/marcap-"+y+".csv/marcap-"+y+".csv"));
 			br=new BufferedReader(new InputStreamReader(System.in));
 			br.readLine();
 			while(true) {
@@ -194,8 +194,8 @@ public class WeekStock {
 //		System.out.println(result);
 		BufferedOutputStream bs = null;
 		try {
-//			bs = new BufferedOutputStream(new FileOutputStream("C:/ssafy/project2/data/day_stock/week_stock"+Y+".sql"));
-			bs = new BufferedOutputStream(new FileOutputStream("C:/ssafy/project2/data/day_stock/20210115.sql"));
+//			bs = new BufferedOutputStream(new FileOutputStream("C://project2/data/day_stock/week_stock"+Y+".sql"));
+			bs = new BufferedOutputStream(new FileOutputStream("C://project2/data/day_stock/20210115.sql"));
 			bs.write(result.getBytes()); //Byte형으로만 넣을 수 있음
 
 		} catch (Exception e) {
